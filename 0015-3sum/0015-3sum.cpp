@@ -20,7 +20,7 @@ public:
                     while(j<k &&nums[k]==nums[k+1]){
                         k--;
                     }
-                } else if ((nums[j] + nums[k] >= (-nums[i]))) {
+                } else if ((nums[j] + nums[k] > (-nums[i]))) {
                     k--;
                 } else {
                     j++;
